@@ -17,6 +17,11 @@ function addToCart(item) {
  console.log(`${item}) has been added to your cart.`)
  return  cart
 }
+addToCart('banana')
+addToCart('apple')
+addToCart('orange')
+addToCart('strawberry')
+addToCart('blueberry')
 
 function viewCart() {
   // write your code here
